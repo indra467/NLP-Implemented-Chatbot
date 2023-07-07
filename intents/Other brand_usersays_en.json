@@ -1,0 +1,41 @@
+[
+  {
+    "id": "7db08628-4a32-4f14-848b-d9b245291aa3",
+    "data": [
+      {
+        "text": "Mac/PC/Laptop",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a4423447-2e2f-4490-a41e-27e795cbc147",
+    "data": [
+      {
+        "text": "Other brand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "18b51379-5903-4d12-9e5e-3041ffad9b04",
+    "data": [
+      {
+        "text": "Samsung",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

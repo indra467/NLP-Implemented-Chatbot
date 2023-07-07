@@ -1,0 +1,126 @@
+[
+  {
+    "id": "238a897d-2d64-430f-acb1-e66632f41132",
+    "data": [
+      {
+        "text": "screen",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3d873a9b-cd56-4380-888c-0f5f05a34e3a",
+    "data": [
+      {
+        "text": "Earpiece",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0fbbb252-4b7a-47ff-b16b-d05f6084d896",
+    "data": [
+      {
+        "text": "Home button",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4949e142-a300-45fc-81fb-17349302839d",
+    "data": [
+      {
+        "text": "Battery",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4667b1aa-1bba-4364-9272-f013624007ca",
+    "data": [
+      {
+        "text": "Rear camera",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "29d2c27e-739a-45e1-8859-0fea01e55338",
+    "data": [
+      {
+        "text": "Front camera",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "51ef81fc-064e-456b-b38f-e61db129e0dc",
+    "data": [
+      {
+        "text": "Charging port",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7928ff9d-94e6-41d4-93f9-682440151349",
+    "data": [
+      {
+        "text": "Broken ",
+        "userDefined": false
+      },
+      {
+        "text": "Screen",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

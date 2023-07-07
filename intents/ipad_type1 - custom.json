@@ -1,0 +1,85 @@
+{
+  "id": "192723ab-bfb8-4e57-8309-7446e625b923",
+  "parentId": "63c8d8fa-cabe-465c-b291-bc5827141b8b",
+  "rootParentId": "63c8d8fa-cabe-465c-b291-bc5827141b8b",
+  "name": "ipad_type1 - custom",
+  "auto": true,
+  "contexts": [
+    "ipad_type1-followup",
+    "ipd"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ipad_type1.ipad_type1-custom",
+      "affectedContexts": [
+        {
+          "name": "iyo",
+          "lifespan": 5
+        },
+        {
+          "name": "ipd",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please specify the part that requires repair"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Battery"
+                    },
+                    {
+                      "text": "Charging port"
+                    },
+                    {
+                      "text": "Front camera"
+                    },
+                    {
+                      "text": "Rear camera"
+                    },
+                    {
+                      "text": "Home button"
+                    },
+                    {
+                      "text": "Not listed - contact us"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

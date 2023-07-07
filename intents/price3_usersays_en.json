@@ -1,0 +1,156 @@
+[
+  {
+    "id": "cf291393-07d9-4698-aac8-a27cc8a53fff",
+    "data": [
+      {
+        "text": "Rear glass",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c0613a97-5416-4343-b2eb-34efef5c9f3a",
+    "data": [
+      {
+        "text": "Camera glass",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ceba7de4-cdc6-46e4-847a-076f89b1a711",
+    "data": [
+      {
+        "text": "Earpiece",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "16d66679-25e7-42e1-9231-9fa761357a1d",
+    "data": [
+      {
+        "text": "Home button",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ff8e3a40-5920-4ad5-a712-3df18ef986e0",
+    "data": [
+      {
+        "text": "Rear camera",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "111ec590-f5ed-4187-9364-560faa65fe4d",
+    "data": [
+      {
+        "text": "Front camera",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "70a7572d-2d5d-4914-80a6-e29fce0a7697",
+    "data": [
+      {
+        "text": "Charging port",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "09896210-0838-43ed-8aab-6255e55d1955",
+    "data": [
+      {
+        "text": "Battery",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a67f9d20-2c52-4b3d-afcd-e3b92b5c3fc1",
+    "data": [
+      {
+        "text": "Broken ",
+        "userDefined": false
+      },
+      {
+        "text": "screen",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ebcbde16-609f-4dd8-ad69-a457f6e69784",
+    "data": [
+      {
+        "text": "screen",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]

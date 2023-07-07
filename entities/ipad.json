@@ -1,0 +1,9 @@
+{
+  "id": "ba7eb4d2-d40b-4167-8a5d-95b22529ca3f",
+  "name": "ipad",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

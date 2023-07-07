@@ -1,0 +1,67 @@
+{
+  "id": "43443bc5-707c-4912-9b7e-54ab98ed4d46",
+  "parentId": "d180ae86-e5eb-4402-ae37-8ab2d46ab2d7",
+  "rootParentId": "c7ab4176-65f1-4054-917d-f9f70a363ab3",
+  "name": "Other brand - custom",
+  "auto": true,
+  "contexts": [
+    "other_br",
+    "Otherbrand-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom-2.DefaultWelcomeIntent-custom-2-custom-2.Otherbrand-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "color": "#2FC1F1",
+                    "type": "call"
+                  },
+                  "text": "Call Us",
+                  "link": "tel:+441782461112",
+                  "type": "button"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "event": {
+                    "name": "Welcome",
+                    "languageCode": "en"
+                  },
+                  "icon": {
+                    "type": "refresh",
+                    "color": "#2FC1F1"
+                  },
+                  "type": "button",
+                  "text": "Restart the Bot"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

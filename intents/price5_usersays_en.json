@@ -1,0 +1,141 @@
+[
+  {
+    "id": "dc8799b2-4374-4b47-aeab-2492daad8bce",
+    "data": [
+      {
+        "text": "Earpiece",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "56119abe-434c-444e-9037-9e37c2ad5e90",
+    "data": [
+      {
+        "text": "Camera glass",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c883de3a-5f34-4116-a6bb-e07b18b89a03",
+    "data": [
+      {
+        "text": "Rear glass",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "39223f68-0a34-4972-9f00-44f5a562772c",
+    "data": [
+      {
+        "text": "Rear camera",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "59f6392a-bd32-4899-a7ce-2866d9ce8ecc",
+    "data": [
+      {
+        "text": "Front camera",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f59c3103-00c9-49fd-a56e-db60d75a5873",
+    "data": [
+      {
+        "text": "Charging port",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d3eeb15c-2336-48da-901e-aa738bd8c9cc",
+    "data": [
+      {
+        "text": "Battery",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "de169293-0eb2-401e-8ab4-9e4d1d71804c",
+    "data": [
+      {
+        "text": "screen",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9de8e412-dbca-43ea-80fe-bd2a464d235b",
+    "data": [
+      {
+        "text": "Broken ",
+        "userDefined": false
+      },
+      {
+        "text": "screen",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,88 @@
+{
+  "id": "8921f161-c4c3-4cf1-8526-474b94f8e0c2",
+  "parentId": "580fa9ba-122c-4e5c-a0ff-88f0b201731a",
+  "rootParentId": "580fa9ba-122c-4e5c-a0ff-88f0b201731a",
+  "name": "iphn_type1 - custom",
+  "auto": true,
+  "contexts": [
+    "iphn",
+    "iphn_type1-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "iphn_type1.iphn_type1-custom",
+      "affectedContexts": [
+        {
+          "name": "iphn",
+          "lifespan": 10
+        },
+        {
+          "name": "yo",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please specify the part that requires repair"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Battery"
+                    },
+                    {
+                      "text": "Charging port"
+                    },
+                    {
+                      "text": "Front camera"
+                    },
+                    {
+                      "text": "Rear camera"
+                    },
+                    {
+                      "text": "Home button"
+                    },
+                    {
+                      "text": "Earpiece"
+                    },
+                    {
+                      "text": "Not listed - contact us"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

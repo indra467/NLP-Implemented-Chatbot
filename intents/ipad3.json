@@ -1,0 +1,93 @@
+{
+  "id": "3dbe0170-8edd-4a87-a238-aadbe6f16bef",
+  "name": "ipad3",
+  "auto": true,
+  "contexts": [
+    "ipa1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ipa2",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What model?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "iPad 7/8th gen"
+                    },
+                    {
+                      "text": "iPad 9th gen"
+                    },
+                    {
+                      "text": "iPad Mini 4"
+                    },
+                    {
+                      "text": "iPad Mini 5"
+                    },
+                    {
+                      "text": "iPad Air 2"
+                    },
+                    {
+                      "text": "iPad Pro 9.7"
+                    },
+                    {
+                      "text": "iPad Pro 10.5"
+                    },
+                    {
+                      "text": "iPad Air 3"
+                    },
+                    {
+                      "text": "iPad 3/4"
+                    },
+                    {
+                      "text": "iPad Mini 1/2"
+                    },
+                    {
+                      "text": "iPad Mini 3"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,90 @@
+{
+  "id": "ee1eebc1-c284-4fa5-92b7-56dfd476bfb1",
+  "parentId": "4f98b08e-4f2c-4434-bf50-ddf4f6afa7f3",
+  "rootParentId": "4f98b08e-4f2c-4434-bf50-ddf4f6afa7f3",
+  "name": "iphn_type3 - custom",
+  "auto": true,
+  "contexts": [
+    "iphn3",
+    "iphn_type3-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "iphn_type3.iphn_type3-custom",
+      "affectedContexts": [
+        {
+          "name": "yo3",
+          "lifespan": 10
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please specify the part that requires repair"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Battery"
+                    },
+                    {
+                      "text": "Charging port"
+                    },
+                    {
+                      "text": "Front camera"
+                    },
+                    {
+                      "text": "Rear camera"
+                    },
+                    {
+                      "text": "Home button"
+                    },
+                    {
+                      "text": "Earpiece"
+                    },
+                    {
+                      "text": "Camera glass"
+                    },
+                    {
+                      "text": "Rear glass"
+                    },
+                    {
+                      "text": "Not listed - contact us"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

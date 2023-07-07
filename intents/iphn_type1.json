@@ -1,0 +1,92 @@
+{
+  "id": "580fa9ba-122c-4e5c-a0ff-88f0b201731a",
+  "name": "iphn_type1",
+  "auto": true,
+  "contexts": [
+    "ipf2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "iphn",
+          "lifespan": 15
+        },
+        {
+          "name": "ipf2",
+          "lifespan": 5
+        },
+        {
+          "name": "iphn_type1-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7753efea-6ffc-4480-9188-aef7c136c300",
+          "name": "iphone",
+          "required": false,
+          "dataType": "@iPhone",
+          "value": "$iphone",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What problem are you having with your device? 😞"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Broken screen"
+                    },
+                    {
+                      "text": "Other issue"
+                    },
+                    {
+                      "text": "I don\u0027t know, I\u0027d like a diagnosis please"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

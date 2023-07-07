@@ -1,0 +1,9 @@
+{
+  "id": "f342b180-b913-4fd2-ab08-6edd6ae2627b",
+  "name": "custom_fild",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

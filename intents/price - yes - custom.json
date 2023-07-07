@@ -1,0 +1,66 @@
+{
+  "id": "e00a166d-a762-4796-9d4a-569d6c055ccd",
+  "parentId": "be72df00-4e2e-466f-be7b-0f0be17511aa",
+  "rootParentId": "cd1a1245-ae16-48b0-b21c-0ca70e5f1726",
+  "name": "price - yes - custom",
+  "auto": true,
+  "contexts": [
+    "price-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "price.price-yes.price-yes-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "type": "call",
+                    "color": "#2FC1F1"
+                  },
+                  "text": "Call Us",
+                  "type": "button",
+                  "link": "tel:+441785747010"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "event": {
+                    "name": "Welcome",
+                    "languageCode": "en"
+                  },
+                  "icon": {
+                    "type": "refresh",
+                    "color": "#2FC1F1"
+                  },
+                  "type": "button",
+                  "text": "Restart the Bot"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "58115be0-e2b7-47df-a585-dffc73bbd18c",
+    "data": [
+      {
+        "text": "iPhone 7 Plus",
+        "meta": "@iphone2",
+        "alias": "iphone2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9e940245-1593-4698-abe1-075f97c11056",
+    "data": [
+      {
+        "text": "iPhone 7",
+        "meta": "@iphone2",
+        "alias": "iphone2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

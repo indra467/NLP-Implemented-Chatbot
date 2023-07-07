@@ -1,0 +1,86 @@
+{
+  "id": "63c8d8fa-cabe-465c-b291-bc5827141b8b",
+  "name": "ipad_type1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ipad_type1-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "ipd",
+          "lifespan": 15
+        }
+      ],
+      "parameters": [
+        {
+          "id": "11db5ea6-6930-459f-80d5-5c3be71bb690",
+          "name": "ipad",
+          "required": false,
+          "dataType": "@ipad",
+          "value": "$ipad",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What problem are you having with your device? 😞"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Broken screen"
+                    },
+                    {
+                      "text": "Other issue"
+                    },
+                    {
+                      "text": "I don\u0027t know, I\u0027d like a diagnosis please"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

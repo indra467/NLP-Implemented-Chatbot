@@ -1,0 +1,62 @@
+{
+  "id": "b4903f97-c1f1-4d0d-bd32-95506cd790d7",
+  "name": "price3",
+  "auto": true,
+  "contexts": [
+    "iphn3"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "iphn3",
+          "lifespan": 10
+        },
+        {
+          "name": "yo3",
+          "lifespan": 5
+        },
+        {
+          "name": "price3-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d5a8626f-3d6b-4c64-9f76-486ba09c5455",
+          "name": "custom_fild",
+          "required": false,
+          "dataType": "@custom_fild",
+          "value": "$custom_fild",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

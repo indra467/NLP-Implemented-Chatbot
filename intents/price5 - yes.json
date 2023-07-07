@@ -1,0 +1,70 @@
+{
+  "id": "781fb04c-f64f-46f5-9d72-f188a2e14201",
+  "parentId": "756fbf37-34f9-4c23-a5b9-479edd97d2f9",
+  "rootParentId": "756fbf37-34f9-4c23-a5b9-479edd97d2f9",
+  "name": "price5 - yes",
+  "auto": true,
+  "contexts": [
+    "iphn5",
+    "yo5",
+    "price5-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "price5.price5-yes",
+      "affectedContexts": [
+        {
+          "name": "price5-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Which is your nearest store?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Stafford"
+                    },
+                    {
+                      "text": "Newcastle-under-Lyme"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

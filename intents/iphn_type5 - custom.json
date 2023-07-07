@@ -1,0 +1,87 @@
+{
+  "id": "b76fab18-d5f7-4c3b-845c-a2f66264b4a3",
+  "parentId": "2ea338a6-b979-4c6d-b342-a143a7f7eef8",
+  "rootParentId": "2ea338a6-b979-4c6d-b342-a143a7f7eef8",
+  "name": "iphn_type5 - custom",
+  "auto": true,
+  "contexts": [
+    "iphn5",
+    "iphn_type5-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "iphn_type5.iphn_type5-custom",
+      "affectedContexts": [
+        {
+          "name": "yo5",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please specify the part that requires repair"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Battery"
+                    },
+                    {
+                      "text": "Charging port"
+                    },
+                    {
+                      "text": "Front camera"
+                    },
+                    {
+                      "text": "Rear camera"
+                    },
+                    {
+                      "text": "Earpiece"
+                    },
+                    {
+                      "text": "Camera glass"
+                    },
+                    {
+                      "text": "Rear glass"
+                    },
+                    {
+                      "text": "Not listed - contact us"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

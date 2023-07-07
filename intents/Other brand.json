@@ -1,0 +1,82 @@
+{
+  "id": "d180ae86-e5eb-4402-ae37-8ab2d46ab2d7",
+  "parentId": "5d0fb434-1fbd-4d04-95ef-659eb36f7509",
+  "rootParentId": "c7ab4176-65f1-4054-917d-f9f70a363ab3",
+  "name": "Other brand",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-custom-2-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom-2.DefaultWelcomeIntent-custom-2-custom-2",
+      "affectedContexts": [
+        {
+          "name": "other_br",
+          "lifespan": 5
+        },
+        {
+          "name": "Otherbrand-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I cant help with that just yet, but one of our friendly (and real!) technicians will be able to help you out during our opening hours:"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Which is your nearest store?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Stafford"
+                    },
+                    {
+                      "text": "Newcastle-under-Lyme"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

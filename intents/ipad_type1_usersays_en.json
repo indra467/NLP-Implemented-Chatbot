@@ -1,0 +1,212 @@
+[
+  {
+    "id": "63f2a9f2-d726-4669-a81a-d577f5f1e069",
+    "data": [
+      {
+        "text": "iPad Air 3",
+        "meta": "@ipad",
+        "alias": "ipad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e441ad3b-ae51-4e28-8f2c-669dd454ed5b",
+    "data": [
+      {
+        "text": "iPad Pro 10.5",
+        "meta": "@ipad",
+        "alias": "ipad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0c41a18a-a21c-40ba-8262-6dd061ef3a41",
+    "data": [
+      {
+        "text": "iPad Pro 9.7",
+        "meta": "@ipad",
+        "alias": "ipad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e995d8d2-370f-4f10-881e-827e451a161e",
+    "data": [
+      {
+        "text": "iPad Air 2",
+        "meta": "@ipad",
+        "alias": "ipad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "427fa4b6-1162-4195-ad5f-0c683722f396",
+    "data": [
+      {
+        "text": "iPad 9th gen",
+        "meta": "@ipad",
+        "alias": "ipad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "368b788d-ddcb-4500-b594-d14190506e0e",
+    "data": [
+      {
+        "text": "iPad 7/8th gen",
+        "meta": "@ipad",
+        "alias": "ipad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "37cdb5b8-3edf-43d6-a993-616b22a3538a",
+    "data": [
+      {
+        "text": "iPad 6th gen",
+        "meta": "@ipad",
+        "alias": "ipad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5a9adcbc-4da5-4526-9447-e194d36a6e45",
+    "data": [
+      {
+        "text": "iPad 5th gen",
+        "meta": "@ipad",
+        "alias": "ipad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1a379bbb-18fa-4d93-b89f-0d2de7724f8e",
+    "data": [
+      {
+        "text": "iPad Air",
+        "meta": "@ipad",
+        "alias": "ipad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c5ccef8a-da74-4cd5-980e-682eb70e7341",
+    "data": [
+      {
+        "text": "iPad Mini 5",
+        "meta": "@ipad",
+        "alias": "ipad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "af337503-7498-4f6e-a946-b51177185f89",
+    "data": [
+      {
+        "text": "iPad Mini 4",
+        "meta": "@ipad",
+        "alias": "ipad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9e2538ad-6b2d-4ee8-ac19-7cdad056c617",
+    "data": [
+      {
+        "text": "iPad Mini 3",
+        "meta": "@ipad",
+        "alias": "ipad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5f2eac04-88eb-493c-b6de-aa08c79e7f80",
+    "data": [
+      {
+        "text": "iPad Mini 1/2",
+        "meta": "@ipad",
+        "alias": "ipad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5b37e20c-3691-4f6a-97e7-2a6e2895332d",
+    "data": [
+      {
+        "text": "iPad 3/4",
+        "meta": "@ipad",
+        "alias": "ipad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

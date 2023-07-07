@@ -1,0 +1,32 @@
+[
+  {
+    "id": "e6380d80-288b-4b4d-91e3-6fca4b73ce4d",
+    "data": [
+      {
+        "text": "iPhone 12 Pro Max",
+        "meta": "@iphone5",
+        "alias": "iphone5",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "326b82f0-e992-45b2-8cbd-777c50df3d05",
+    "data": [
+      {
+        "text": "iPhone 12 Mini",
+        "meta": "@iphone5",
+        "alias": "iphone5",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

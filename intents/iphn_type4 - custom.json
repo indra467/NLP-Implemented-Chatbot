@@ -1,0 +1,87 @@
+{
+  "id": "72eab636-2840-4f84-8f2b-93bfb23752cd",
+  "parentId": "f907af2c-141c-4706-af6f-e193c5c31585",
+  "rootParentId": "f907af2c-141c-4706-af6f-e193c5c31585",
+  "name": "iphn_type4 - custom",
+  "auto": true,
+  "contexts": [
+    "iphn4",
+    "iphn_type4-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "iphn_type4.iphn_type4-custom",
+      "affectedContexts": [
+        {
+          "name": "yo4",
+          "lifespan": 15
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please specify the part that requires repair"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Battery"
+                    },
+                    {
+                      "text": "Charging port"
+                    },
+                    {
+                      "text": "Front camera"
+                    },
+                    {
+                      "text": "Rear camera"
+                    },
+                    {
+                      "text": "Earpiece"
+                    },
+                    {
+                      "text": "Camera glass"
+                    },
+                    {
+                      "text": "Rear glass"
+                    },
+                    {
+                      "text": "Not listed - contact us"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "e5fe7064-1972-47fe-8732-b7510bb7b843",
+    "data": [
+      {
+        "text": "iPhone SE2",
+        "meta": "@iphone3",
+        "alias": "iphone3",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ce7d2a89-671d-414b-9fce-7c82ca81c2f2",
+    "data": [
+      {
+        "text": "iPhone 8",
+        "meta": "@iphone3",
+        "alias": "iphone3",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "36130245-bc5b-4db9-ab8d-aa756dee84cd",
+    "data": [
+      {
+        "text": "iPhone 8 Plus",
+        "meta": "@iphone3",
+        "alias": "iphone3",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

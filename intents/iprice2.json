@@ -1,0 +1,62 @@
+{
+  "id": "8d20efb4-27ec-491c-b966-4bec089e5c78",
+  "name": "iprice2",
+  "auto": true,
+  "contexts": [
+    "ipd2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ipd2",
+          "lifespan": 5
+        },
+        {
+          "name": "so2",
+          "lifespan": 5
+        },
+        {
+          "name": "iprice2-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "96446031-0490-4827-b28e-4223aa77beef",
+          "name": "custom_fild",
+          "required": false,
+          "dataType": "@custom_fild",
+          "value": "$custom_fild",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

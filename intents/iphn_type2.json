@@ -1,0 +1,92 @@
+{
+  "id": "ebfbdcb2-ab8c-49b9-a3cc-91d936779985",
+  "name": "iphn_type2",
+  "auto": true,
+  "contexts": [
+    "ipf2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "iphn2",
+          "lifespan": 15
+        },
+        {
+          "name": "iphn_type2-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "ipf2",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6a1a1643-0c04-4e28-8226-9d640b626143",
+          "name": "iphone2",
+          "required": false,
+          "dataType": "@iphone2",
+          "value": "$iphone2",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What problem are you having with your device? 😞"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Broken Screen"
+                    },
+                    {
+                      "text": "Other issue"
+                    },
+                    {
+                      "text": "I don\u0027t know, I\u0027d like a diagnosis please"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

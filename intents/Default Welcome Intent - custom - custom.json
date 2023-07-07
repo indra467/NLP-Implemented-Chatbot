@@ -1,0 +1,76 @@
+{
+  "id": "3db43213-c76d-4015-91fc-b4e63bb89932",
+  "parentId": "fff5999b-e231-4567-993e-338a8c269ee9",
+  "rootParentId": "c7ab4176-65f1-4054-917d-f9f70a363ab3",
+  "name": "Default Welcome Intent - custom - custom",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.DefaultWelcomeIntent-custom-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "👉 Your phone was repaired for a certain fault and now the fault has returned\n\nEven though we source the very best parts that are available in very obscure cases we do experience a very small failure rate on parts that we fit. Please note however that the warranty does not cover any accidental or intentional damage to the part fitted by us.\n\nThis service means you can return the phone to us within the warranty period and once the fault has been confirmed by one of our technicians we will get the faulty part replaced for you free of charge."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": "Book",
+                  "type": "button",
+                  "link": "https://ifix.acuityscheduling.com/schedule.php?appointmentType\u003d316184",
+                  "icon": {
+                    "color": "#2FC1F1",
+                    "type": "beenhere"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Restart the Bot",
+                  "event": {
+                    "languageCode": "en",
+                    "name": "Welcome"
+                  },
+                  "icon": {
+                    "color": "#2FC1F1",
+                    "type": "refresh"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

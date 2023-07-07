@@ -1,0 +1,32 @@
+[
+  {
+    "id": "2506bd84-1f21-4485-8d21-37545ed2622b",
+    "data": [
+      {
+        "text": "LCD",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4bc315ca-229b-4096-8989-73717572bd5a",
+    "data": [
+      {
+        "text": "Glass only",
+        "meta": "@custom_fild",
+        "alias": "custom_fild",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

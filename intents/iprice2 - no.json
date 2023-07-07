@@ -1,0 +1,56 @@
+{
+  "id": "f156c54b-92da-49e7-9c92-ab787a394be3",
+  "parentId": "8d20efb4-27ec-491c-b966-4bec089e5c78",
+  "rootParentId": "8d20efb4-27ec-491c-b966-4bec089e5c78",
+  "name": "iprice2 - no",
+  "auto": true,
+  "contexts": [
+    "ipd2",
+    "so2",
+    "iprice2-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "iprice2.iprice2-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "button",
+                  "event": {
+                    "languageCode": "en",
+                    "name": "Welcome"
+                  },
+                  "icon": {
+                    "color": "#2FC1F1",
+                    "type": "refresh"
+                  },
+                  "text": "Restart the Bot"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

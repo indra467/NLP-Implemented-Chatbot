@@ -1,0 +1,56 @@
+{
+  "id": "e11a310b-88a4-4890-be1e-5c9c481f3d1e",
+  "parentId": "756fbf37-34f9-4c23-a5b9-479edd97d2f9",
+  "rootParentId": "756fbf37-34f9-4c23-a5b9-479edd97d2f9",
+  "name": "price5 - no",
+  "auto": true,
+  "contexts": [
+    "iphn5",
+    "yo5",
+    "price5-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "price5.price5-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": "Restart the Bot",
+                  "type": "button",
+                  "event": {
+                    "languageCode": "en",
+                    "name": "Welcome"
+                  },
+                  "icon": {
+                    "color": "#2FC1F1",
+                    "type": "refresh"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

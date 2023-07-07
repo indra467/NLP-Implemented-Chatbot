@@ -1,0 +1,76 @@
+{
+  "id": "8c0ec02e-94f1-4b61-ab4f-5f1d3f45ea4a",
+  "parentId": "63c8d8fa-cabe-465c-b291-bc5827141b8b",
+  "rootParentId": "63c8d8fa-cabe-465c-b291-bc5827141b8b",
+  "name": "ipad_type1 - custom-2",
+  "auto": true,
+  "contexts": [
+    "ipad_type1-followup",
+    "ipd"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ipad_type1.ipad_type1-custom-2",
+      "affectedContexts": [
+        {
+          "name": "so1",
+          "lifespan": 5
+        },
+        {
+          "name": "ipd",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please specify the part of the screen which is broken"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "LCD"
+                    },
+                    {
+                      "text": "Glass only"
+                    },
+                    {
+                      "text": "Not listed - contact us"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

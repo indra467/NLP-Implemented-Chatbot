@@ -1,0 +1,62 @@
+{
+  "id": "508fe523-acbf-40b2-8e4c-122af9ba7c2a",
+  "name": "end",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "button",
+                  "icon": {
+                    "type": "beenhere",
+                    "color": "#2FC1F1"
+                  },
+                  "link": "https://ifix.as.me/schedule.php?appointmentType\u003d4980321",
+                  "text": "Book"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "type": "refresh",
+                    "color": "#2FC1F1"
+                  },
+                  "type": "button",
+                  "event": {
+                    "name": "Welcome",
+                    "languageCode": "en"
+                  },
+                  "text": "Restart the Bot"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

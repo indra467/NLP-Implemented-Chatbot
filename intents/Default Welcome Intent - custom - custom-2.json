@@ -1,0 +1,76 @@
+{
+  "id": "818ee8a7-8fbf-4b57-a402-39459ded28f3",
+  "parentId": "fff5999b-e231-4567-993e-338a8c269ee9",
+  "rootParentId": "c7ab4176-65f1-4054-917d-f9f70a363ab3",
+  "name": "Default Welcome Intent - custom - custom-2",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.DefaultWelcomeIntent-custom-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "👉 A repair was completed and now an unrelated problem is occurring with my phone.\n\nAll of our phones go through an intensive 20 point check in and check out testing process so any problems are usually caught by one of our technicians.\n\nAll issues must be communicated to the store where the repair was completed within 24 Hours either by phone or email or unfortunately we cannot be held responsible and any other problems will be treated as a new issue."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "color": "#2FC1F1",
+                    "type": "beenhere"
+                  },
+                  "type": "button",
+                  "link": "https://ifix.acuityscheduling.com/schedule.php?appointmentType\u003d316204",
+                  "text": "Book"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Restart the Bot",
+                  "icon": {
+                    "color": "#2FC1F1",
+                    "type": "refresh"
+                  },
+                  "event": {
+                    "name": "Welcome",
+                    "languageCode": "en"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "756fbf37-34f9-4c23-a5b9-479edd97d2f9",
+  "name": "price5",
+  "auto": true,
+  "contexts": [
+    "iphn5"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "iphn5",
+          "lifespan": 10
+        },
+        {
+          "name": "yo5",
+          "lifespan": 5
+        },
+        {
+          "name": "price5-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2cbe4904-1943-494c-93a4-a1362b48eb87",
+          "name": "custom_fild",
+          "required": false,
+          "dataType": "@custom_fild",
+          "value": "$custom_fild",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

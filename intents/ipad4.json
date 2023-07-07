@@ -1,0 +1,94 @@
+{
+  "id": "5615f504-e931-4f85-8e6b-6887e81390cf",
+  "name": "ipad4",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ipa1",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What model?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "iPad Air 4"
+                    },
+                    {
+                      "text": "iPad Pro 11 1st gen"
+                    },
+                    {
+                      "text": "iPad Pro 11 2nd gen"
+                    },
+                    {
+                      "text": "iPad Pro 11 3rd gen"
+                    },
+                    {
+                      "text": "iPad Pro 12.9 1st gen"
+                    },
+                    {
+                      "text": "iPad Pro 12.9 2nd gen"
+                    },
+                    {
+                      "text": "iPad Pro 12.9 3rd gen"
+                    },
+                    {
+                      "text": "iPad Pro 12.9 4rd gen"
+                    },
+                    {
+                      "text": "iPad Air"
+                    },
+                    {
+                      "text": "iPad 5th gen"
+                    },
+                    {
+                      "text": "iPad 6th gen"
+                    },
+                    {
+                      "text": "Not in the list"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

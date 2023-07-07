@@ -1,0 +1,94 @@
+{
+  "id": "4b110276-0f86-4398-a83a-badeb6a7649f",
+  "name": "ip4",
+  "auto": true,
+  "contexts": [
+    "ipf1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ipf1",
+          "lifespan": 5
+        },
+        {
+          "name": "ipf2",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What model?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "iPhone 8"
+                    },
+                    {
+                      "text": "iPhone SE2"
+                    },
+                    {
+                      "text": "iPhone 8 Plus"
+                    },
+                    {
+                      "text": "iPhone 7"
+                    },
+                    {
+                      "text": "iPhone 7 Plus"
+                    },
+                    {
+                      "text": "iPhone 5S /SE"
+                    },
+                    {
+                      "text": "iPhone 6"
+                    },
+                    {
+                      "text": "iPhone 6 Plus"
+                    },
+                    {
+                      "text": "iPhone 6S"
+                    },
+                    {
+                      "text": "iPhone 6S Plus"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

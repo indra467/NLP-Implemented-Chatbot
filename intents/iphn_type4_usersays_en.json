@@ -1,0 +1,137 @@
+[
+  {
+    "id": "cd639038-e758-4223-bae5-68ff81da2af6",
+    "data": [
+      {
+        "text": "iPhone X",
+        "meta": "@iphone4",
+        "alias": "iphone4",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2378277a-b4d9-45e0-ac04-959addeeb51f",
+    "data": [
+      {
+        "text": "iPhone XS",
+        "meta": "@iphone4",
+        "alias": "iphone4",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cdfb9d3f-fb2c-4ed9-9407-bbf3029a4275",
+    "data": [
+      {
+        "text": "iPhone XS Max",
+        "meta": "@iphone4",
+        "alias": "iphone4",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "84792f2f-eea3-4e84-8caa-5f9d6ae2e112",
+    "data": [
+      {
+        "text": "iPhone XR",
+        "meta": "@iphone4",
+        "alias": "iphone4",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d32dcc0b-9ef1-42ad-88b6-839316d48697",
+    "data": [
+      {
+        "text": "iPhone 11",
+        "meta": "@iphone4",
+        "alias": "iphone4",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ad2bdace-7b10-42a5-8ad4-d8ae5673b7b8",
+    "data": [
+      {
+        "text": "iPhone 11 Pro",
+        "meta": "@iphone4",
+        "alias": "iphone4",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7ebaacd8-7306-4335-80fd-c2e3d0a019e9",
+    "data": [
+      {
+        "text": "iPhone 11 Pro Max",
+        "meta": "@iphone4",
+        "alias": "iphone4",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "de432e1f-10db-4970-a49e-1f0656484d9f",
+    "data": [
+      {
+        "text": "iPhone 12",
+        "meta": "@iphone4",
+        "alias": "iphone4",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9ab70877-a69e-4ee4-8bbd-4c8119a07d49",
+    "data": [
+      {
+        "text": "iPhone 12 Pro",
+        "meta": "@iphone4",
+        "alias": "iphone4",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

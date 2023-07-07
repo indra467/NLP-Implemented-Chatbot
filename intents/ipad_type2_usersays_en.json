@@ -1,0 +1,122 @@
+[
+  {
+    "id": "3acdbbe9-d239-4850-b812-775bec052e8d",
+    "data": [
+      {
+        "text": "iPad Pro 12.9 4rd gen",
+        "meta": "@ipad2",
+        "alias": "ipad2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e2d11f18-b3c1-4269-9cad-c7337f8ff03c",
+    "data": [
+      {
+        "text": "iPad Pro 12.9 3rd gen",
+        "meta": "@ipad2",
+        "alias": "ipad2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fd2992cd-8996-406c-bbb2-7102ad90cc50",
+    "data": [
+      {
+        "text": "iPad Pro 12.9 2nd gen",
+        "meta": "@ipad2",
+        "alias": "ipad2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8f1cd70e-7358-4870-a15b-878fd1bada8a",
+    "data": [
+      {
+        "text": "iPad Pro 12.9 1st gen",
+        "meta": "@ipad2",
+        "alias": "ipad2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "884affe2-a377-4622-bb72-713e24735e4b",
+    "data": [
+      {
+        "text": "iPad Pro 11 3rd gen",
+        "meta": "@ipad2",
+        "alias": "ipad2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c0ddee75-4c32-418f-a9c9-8103084eab47",
+    "data": [
+      {
+        "text": "iPad Pro 11 2nd gen",
+        "meta": "@ipad2",
+        "alias": "ipad2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f6b7bf39-b1ae-459a-849b-dad01dd9b700",
+    "data": [
+      {
+        "text": "iPad Pro 11 1st gen",
+        "meta": "@ipad2",
+        "alias": "ipad2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f268950e-b7a5-4749-a81f-c1ef60cedbc8",
+    "data": [
+      {
+        "text": "iPad Air 4",
+        "meta": "@ipad2",
+        "alias": "ipad2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

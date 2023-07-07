@@ -1,0 +1,9 @@
+{
+  "id": "54afe252-6ef9-47ca-9584-20ac6bf4e405",
+  "name": "iPhone",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

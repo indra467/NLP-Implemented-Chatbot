@@ -1,0 +1,77 @@
+[
+  {
+    "id": "2ae83aa0-cec9-4363-9ed7-9b511726e551",
+    "data": [
+      {
+        "text": "iPhone 6S Plus",
+        "meta": "@iPhone",
+        "alias": "iphone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8886f2cb-fe60-4a34-8f44-8b4a394ecfc7",
+    "data": [
+      {
+        "text": "iPhone 6S",
+        "meta": "@iPhone",
+        "alias": "iphone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "26714cab-1998-4717-b73e-dff034c62134",
+    "data": [
+      {
+        "text": "iPhone 6 Plus",
+        "meta": "@iPhone",
+        "alias": "iphone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2e9edef5-32f3-43a0-b2e8-f8de6ec5edbf",
+    "data": [
+      {
+        "text": "iPhone 6",
+        "meta": "@iPhone",
+        "alias": "iphone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2fa4677d-dc20-414b-99a2-be29cf449f51",
+    "data": [
+      {
+        "text": "iPhone 5S /SE",
+        "meta": "@iPhone",
+        "alias": "iphone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "id": "77faa353-d556-4157-ae05-fcd04cf6d8dd",
+  "name": "iprice",
+  "auto": true,
+  "contexts": [
+    "ipd"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ipad",
+          "lifespan": 5
+        },
+        {
+          "name": "iyo",
+          "lifespan": 5
+        },
+        {
+          "name": "so1",
+          "lifespan": 5
+        },
+        {
+          "name": "ipd",
+          "lifespan": 5
+        },
+        {
+          "name": "iprice-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "84123437-2c45-4aea-afa3-0dc65029fb31",
+          "name": "custom_fild",
+          "required": false,
+          "dataType": "@custom_fild",
+          "value": "$custom_fild",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

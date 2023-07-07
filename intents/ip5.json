@@ -1,0 +1,94 @@
+{
+  "id": "f893db2f-af58-4bbd-814d-3e03a2131987",
+  "name": "ip5",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ipf1",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What model?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "iPhone 12 Pro Max"
+                    },
+                    {
+                      "text": "iPhone 12 Mini"
+                    },
+                    {
+                      "text": "iPhone X"
+                    },
+                    {
+                      "text": "iPhone XS"
+                    },
+                    {
+                      "text": "iPhone XS Max"
+                    },
+                    {
+                      "text": "iPhone XR"
+                    },
+                    {
+                      "text": "iPhone 11"
+                    },
+                    {
+                      "text": "iPhone 11 Pro"
+                    },
+                    {
+                      "text": "iPhone 11 Pro Max"
+                    },
+                    {
+                      "text": "iPhone 12"
+                    },
+                    {
+                      "text": "iPhone 12 Pro"
+                    },
+                    {
+                      "text": "Not in the list"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
